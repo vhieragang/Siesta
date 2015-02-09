@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+	<!--Ext and ux styles -->
+    <link href="http://cdn.sencha.com/ext/gpl/5.1.0/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css" rel="stylesheet" type="text/css" />
+
+	<!--Scheduler styles-->
+    <link href="../../resources/css/sch-all.css?ver=3.0.0" rel="stylesheet" type="text/css" />
+    
+	<!--Implementation specific styles-->
+    <link href="../css/examples.css" rel="stylesheet" type="text/css" />
+    <link href="performance.css" rel="stylesheet" type="text/css" />
+      
+	<!--Ext lib and UX components-->
+    <script src="http://cdn.sencha.com/ext/gpl/5.1.0/build/ext-all.js" type="text/javascript"></script>
+
+    <!--Scheduler files-->
+    <script src="../../sch-all-debug.js?ver=3.0.0" type="text/javascript"></script>
+
+    <!--Application files-->
+    <script src="../examples-shared.js" type="text/javascript"></script>
+    <script src="performance.js" type="text/javascript"></script>
+    <title>Performance Data Visualization</title>
+  </head>
+  <body>
+    <div id="example-description">
+        <p>
+            This example visualizes <a href="http://groups.google.com/group/http-archive-specification/web/har-1-1-spec?hl=en">HAR</a> data output from Firebug (using the NetExport Firebug plugin).
+            The scheduler uses a custom event template which has different sections for blocking, waiting, receiving and connecting times.
+        </p>
+        <p>
+            Note that the js for the example code is not minified so it is readable. See <a href="performance.js">performance.js</a>.
+        </p>
+    </div>
+    <div id="example-container">
+    </div>
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-11046863-1");
+            pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+  </body>
+</html>

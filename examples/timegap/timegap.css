@@ -1,0 +1,26 @@
+
+.long-unallocated-slot
+{
+    background: url(images/texture.png) repeat !important;
+}
+
+.sch-event 
+{
+	color:#fff !important;
+	text-shadow: rgba(0,0,0,.2) 0 -1px 0;
+    -moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    border-color:SlateGrey !important;
+}
+
+.row-colorbox
+{
+	height:12px;
+	width:12px;
+	-moz-border-radius:100%;
+    -webkit-border-radius: 100%;
+    float:left;
+	margin-right:7px;
+	-moz-box-shadow:1px 1px 2px rgba(100, 100, 100, 0.4);
+    -webkit-box-shadow:1px 1px 2px rgba(100, 100, 100, 0.4);
+}

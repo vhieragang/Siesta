@@ -1,0 +1,69 @@
+.sch-event {
+    -webkit-box-shadow : 1px 1px 1px rgba(150, 150, 150, 0.5);
+    -moz-box-shadow    : 1px 1px 1px rgba(150, 150, 150, 0.5);
+    box-shadow         : 1px 1px 1px rgba(150, 150, 150, 0.5);
+    text-shadow        : 1px 1px 1px rgba(255, 255, 255, 0.7);
+    opacity            : 0.9;
+}
+
+.sch-timelineview .customZoneStyle {
+    background : url(images/graytexture.png) repeat !important;
+}
+
+.sch-timelineview .myZoneStyle {
+    background : whitesmoke url(images/pattern.png) repeat !important;
+}
+
+.sch-header-indicator.myZoneStyle
+{
+    border-color: rgba(83, 13, 134, 0.7);
+}
+
+.sch-timelineview .important {
+    border-left : 2px dotted red;
+}
+
+.sch-header-indicator.important
+{
+    border-color:red;
+}
+
+.sch-schedulerpanel .x-grid-row .x-grid-cell,
+.sch-schedulerpanel .x-grid-row .x-grid-cell-inner {
+    border-top    : 0 none;
+    border-bottom : 0 none;
+}
+
+.sch-zone {
+    text-align : center;
+}
+
+.zone-type,
+.line-text {
+    background-color : rgba(83, 13, 134, 0.7);
+    bottom           : 0;
+    color            : #FFEEEE;
+    display          : block;
+    font-size        : 0.8em;
+    height           : 13px;
+    position         : absolute;
+    width            : inherit;
+}
+
+.sch-timeline {
+    overflow : visible;
+}
+
+.line-text {
+    border-right-top-radius    : 5px;
+    border-right-bottom-radius : 5px;
+    box-shadow                 : 1px 1px 2px #ccc;
+    white-space                : nowrap;
+    width                      : auto;
+    border-top-right-radius    : 3px;
+    border-bottom-right-radius : 3px;
+    padding-left               : 3px;
+    padding-right              : 3px;
+    bottom                     : -12px;
+    left                       : -2px;
+}

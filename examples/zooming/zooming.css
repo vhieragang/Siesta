@@ -1,0 +1,19 @@
+.zoomIn
+{
+    background:url(images/zoom_in.png) no-repeat left center;
+}
+
+.zoomOut
+{   
+    background:url(images/zoom_out.png) no-repeat left center;
+}
+
+.zoomMax
+{
+    background:url(images/magnifier_zoom_in.png) no-repeat left center;
+}
+
+.zoomMin
+{
+    background:url(images/magnifier_zoom_out.png) no-repeat left center;
+}

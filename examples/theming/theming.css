@@ -1,0 +1,23 @@
+div.sch-event
+{
+    line-height: 25px;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #444;
+}
+
+.sch-icon
+{
+    width:20px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.sch-name
+{
+    font-size: 90%;
+}
+
+.x-grid-with-row-lines .x-grid-item {
+    border-color: #eee;
+}

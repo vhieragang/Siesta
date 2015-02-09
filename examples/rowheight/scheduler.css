@@ -1,0 +1,44 @@
+.sch-event
+{
+    background:#eee;
+    border-color: gray;
+}
+
+.sch-event-inner
+{
+    border-left: 8px solid;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 3px;
+}
+
+.state-0 .sch-event-inner
+{
+    border-left-color: brown;
+}
+
+.state-1 .sch-event-inner
+{
+    border-left-color: rgb(231, 168, 75);
+}
+
+.state-2 .sch-event-inner
+{
+    border-left-color: lightblue;
+}
+
+.state-3 .sch-event-inner
+{
+    border-left-color: lightgreen;
+}
+
+.x-grid-view td.name
+{
+    background: #eff;
+}
+
+.name div
+{
+    background: transparent;
+}
+

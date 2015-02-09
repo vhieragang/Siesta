@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--Ext and ux styles -->
+    <link href="http://cdn.sencha.com/ext/gpl/5.1.0/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css" rel="stylesheet" type="text/css" />
+      
+	<!--Example styles -->
+    <link href="../css/examples.css" rel="stylesheet" type="text/css" />
+    <link href="validation.css" rel="stylesheet" type="text/css" />
+
+    <!--Scheduler styles-->
+    <link href="../../resources/css/sch-all.css?ver=3.0.0" rel="stylesheet" type="text/css" />
+      
+	<!--Ext JS includes-->
+    <script src="http://cdn.sencha.com/ext/gpl/5.1.0/build/ext-all.js" type="text/javascript"></script>
+	
+    <!--Scheduler files-->
+    <script src="../../sch-all-debug.js?ver=3.0.0" type="text/javascript"></script>
+
+    <!--Application files-->
+    <script src="../examples-shared.js" type="text/javascript"></script>
+    <script src="validation.js" type="text/javascript"></script>
+    
+    <title>Validation demo</title>
+  </head>
+  <body>
+    <div id="example-description">
+        <p>
+            This demo shows you how you can validate and control what's allowed in your schedule. Try moving, resizing and creating bars in the chart below and see what happens. 'allowOverlap' is set to false, this means events are not 
+            allowed to overlap. This will be prevented when you create, drag and resize events.
+        </p>
+        <p>
+            Note that the js for the example code is not minified so it is readable. See <a href="validation.js">validation.js</a> and the loaded event data <a href="data.js">data.js</a>
+        </p>
+    </div>
+    <div id="example-container"></div>
+  </body>
+</html>

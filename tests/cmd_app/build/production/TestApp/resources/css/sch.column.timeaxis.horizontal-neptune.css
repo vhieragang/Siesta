@@ -1,0 +1,17 @@
+.sch-column-header {
+    border-right     : 1px solid silver;
+    color            : #666;
+    padding          : 7px 10px 7px 10px;
+}
+
+.sch-header-row {
+    border-top : 1px solid silver;
+}
+
+.sch-column-header-over {
+    background-color : #eef6fb;
+}
+
+.sch-simple-timeaxis .sch-header-row-compact .sch-column-header {
+    padding: 5px 0;
+}

@@ -1,0 +1,14 @@
+.sch-event
+{
+	color:#fff;
+	text-shadow: rgba(0,0,0,.2) 0 -1px 0;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    border-color:Lavender;
+    background-color:blue;
+}
+
+.go
+{
+    background:url(images/go.png) no-repeat left center !important;
+}

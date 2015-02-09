@@ -1,0 +1,48 @@
+{
+    "name": "SchedulerGrid",
+    "type": "code",
+    "creator": "anonymous",
+    "summary": "Short summary",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "architect": {
+        "defsonly": true,
+        "compatFrameworks": [
+            "ext50"
+        ],
+        "requires":[
+            "sch-all.js"
+        ],
+        "classes": [{
+            "definition": "Resource.js",
+            "className": "Sch.model.Resource",
+            "js": ["src/ResourceModel.js"],
+            "css": []
+        },{
+            "definition": "ResourceStore.js",
+            "className": "Sch.data.ResourceStore",
+            "js": ["src/ResourceStore.js"],
+            "css": []
+        },{
+            "definition": "Event.js",
+            "className": "Sch.model.Event",
+            "js": ["src/EventModel.js"],
+            "css": []
+        },{
+            "definition": "EventStore.js",
+            "className": "Sch.data.EventStore",
+            "js": ["src/EventStore.js"],
+            "css": []
+        },{
+            "definition": "SchedulerGrid.js",
+            "className": "Ext.ux.SchedulerGrid",
+            "js": ["src/SchedulerGridPanel.js"],
+            "css": [
+                "editor.css",
+                "sch-all.css"
+            ]
+        }]
+    },
+    "local": true,
+    "requires": []
+}

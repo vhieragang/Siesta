@@ -1,0 +1,91 @@
+.sch-event {
+    width                 : auto !important;
+    overflow              : visible !important;
+    -moz-box-shadow       : 1px 1px 6px rgba(100, 100, 100, 0.4);
+    -webkit-box-shadow    : 1px 1px 6px rgba(100, 100, 100, 0.4);
+    background            : #fff !important;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border                : 1px solid #ccc;
+}
+
+.sch-timetd {
+    overflow : visible !important;
+}
+
+.sch-event-inner div {
+    padding-left : 25px;
+    padding-top  : 3px;
+    height       : 22px;
+}
+
+.pin {
+    position : absolute;
+    left     : -23px;
+    top      : -14px;
+}
+
+.past {
+    opacity : .4;
+}
+
+.startTime {
+    color      : #777;
+    background : url(images/clock.png) no-repeat 2px 2px;
+}
+
+.rsvps {
+    background : url(images/users.png) no-repeat 2px 2px;
+}
+
+.eventName {
+    background  : url(images/ext.png) no-repeat 2px 2px;
+    font-weight : bold;
+    color       : #15428B;
+}
+
+.x-grid-inner-locked .x-grid-row .x-grid-cell {
+    background            : url(images/groupbg.png) repeat-x left top;
+    -moz-border-radius    : 11px;
+    -webkit-border-radius : 11px;
+    border-radius         : 11px;
+}
+
+.x-grid-inner-locked .x-grid-row .x-grid-cell-inner {
+    height   : 100%;
+    overflow : hidden;
+}
+
+.groupName {
+    color       : #fff;
+    font-weight : bold;
+}
+
+.members {
+    display      : block;
+    float        : left;
+    color        : #eee;
+    background   : url(images/users.png) no-repeat left top;
+    padding-left : 25px;
+    height       : 20px;
+    line-height  : 20px;
+    margin-top   : 14px;
+}
+
+.location {
+    display    : block;
+    float      : right;
+    color      : #eee;
+    height     : 20px;
+    margin-top : 20px;
+}
+
+tr.no-scheduled-meetup {
+    background : whitesmoke url(images/sad.png) no-repeat center center;
+}
+
+.sch-timeline {
+    border-color : Red;
+    border-width : 1px !important;
+    z-index      : 3;
+}

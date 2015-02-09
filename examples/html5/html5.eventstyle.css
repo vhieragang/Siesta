@@ -1,0 +1,176 @@
+.sch-event {
+    box-shadow : none !important;
+}
+
+.sch-event,
+.sch-event-inner {
+    background   : none;
+    border-color : transparent;
+    overflow     : visible !important;
+    margin       : 0;
+}
+
+.sch-event-inner {
+    width : inherit;
+}
+
+.sch-event-selected {
+    border-color : transparent !important;
+}
+
+.datect {
+    position   : relative;
+    top        : -7px;
+    z-index    : 4;
+    text-align : center;
+    width      : 65px;
+    height     : 68px;
+    border     : 1px solid #DDDDDD;
+    background : #fff
+}
+
+.datect span {
+    display : block;
+}
+
+.dayname, .month {
+    color : Chocolate;
+}
+
+.date {
+    font-family : Cardo, arial, sans-serif;
+    text-shadow : 0 2px 2px rgba(0, 0, 0, 0.2);
+    font-size   : 35px;
+    color       : #A10000;
+    height      : 35px;
+    line-height : 33px;
+}
+
+.weekend {
+    color : red !important;
+}
+
+.bg, .bg2 {
+    height     : 68px;
+    background : #eee;
+    border     : 1px solid #bbb;
+    position   : absolute;
+    left       : 3px;
+}
+
+.bg {
+    height    : 65px;
+    top       : -3px;
+    width     : 63px;
+    z-index   : 3;
+    transform : rotate(3deg);
+}
+
+.bg2 {
+    width      : 65px;
+    height     : 65px;
+    top        : -1px;
+    z-index    : 2;
+    transform  : rotate(5deg);
+    box-shadow : 1px 1px 1px rgba(100, 100, 100, 0.4);
+}
+
+.event-content {
+    border-color       : DarkGray;
+    border-style       : solid;
+    border-width       : 1px 1px 1px 0;
+    height             : inherit;
+    position           : absolute;
+    top                : -6px;
+    left               : 65px;
+    opacity            : 0.5;
+    box-shadow         : 1px 1px 1px rgba(150, 150, 150, 0.3);
+}
+
+.event-content {
+    /* Safari 4+, Chrome 1-9 */
+    background-image : -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dee), to(#fff));
+
+    /* Safari 5.1+, Mobile Safari, Chrome 10+ */
+    background-image : -webkit-linear-gradient(top, #dee, #fff);
+
+    /* Firefox 3.6+ */
+    background-image : -moz-linear-gradient(top, #dee, #fff);
+
+    /* IE 10+ */
+    background-image : -ms-linear-gradient(top, #dee, #fff);
+
+    /* Opera 11.10+ */
+    background-image : -o-linear-gradient(top, #dee, #fff);
+}
+
+div.sch-event-hover {
+    cursor       : pointer;
+    border-color : transparent;
+}
+
+.sch-event-hover .event-content {
+    border-color : blue;
+}
+
+.sch-event-hover .datect {
+    border-color     : #aaa;
+
+    background-color : #eff;
+}
+
+.guest-details {
+    float    : right;
+    overflow : hidden;
+    margin   : 2px 10px 10px;
+}
+
+.guest-details dt {
+    font-weight : bold;
+}
+
+.nbr-guests {
+    background   : url(images/people.png) no-repeat;
+    padding-left : 17px;
+    padding-top  : 2px;
+    font-weight  : bold;
+    margin-left  : 4px;
+}
+
+.reschedule {
+    opacity  : 0.1;
+    position : absolute;
+    top      : 0;
+    left     : 76px;
+}
+
+.sch-event-hover .reschedule {
+    opacity                     : 1;
+    -webkit-transition-property : opacity;
+    -webkit-transition          : opacity 500ms ease-out 100ms;
+    -moz-transition-property    : opacity;
+    -moz-transition             : opacity 500ms ease-out 100ms;
+    transition-property         : opacity;
+    transition                  : opacity 500ms ease-out 100ms;
+}
+
+.forward-one {
+    background : url("images/arrows-right.gif") no-repeat scroll left center transparent;
+}
+
+.back-one, .forward-one {
+    display : inline-block;
+    height  : 9px;
+    margin  : 1px;
+    padding : 1px;
+    width   : 9px;
+}
+
+.back-one {
+    background : url("images/arrows-left.gif") no-repeat scroll left center transparent;
+}
+
+.back-one:hover,
+.forward-one:hover {
+    background-color : #eee;
+}

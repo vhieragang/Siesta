@@ -1,0 +1,42 @@
+.sch-event 
+{
+	border-radius:12px !important;
+	-moz-border-radius:12px !important;
+    -webkit-border-radius: 12px;
+    box-shadow:1px 1px 1px rgba(100, 100, 100, 0.2);
+    -moz-box-shadow:1px 1px 1px rgba(100, 100, 100, 0.2);
+    -webkit-box-shadow:1px 1px 3px rgba(150, 150, 150, 0.3);
+	background-color: #CDE6F3;
+	border-color:Orchid;
+	border-style:solid;
+	color:#1C417C;
+	cursor:pointer;
+    text-align : center;
+    line-height:19px;
+}
+
+.x-grid-inner-locked .x-grid-row .x-grid-cell-first
+{
+    background:#efe;
+    vertical-align:middle;
+}
+
+.MadMike
+{
+    background-color:Beige;
+}
+
+.LindaAnderson
+{
+    background-color:orange;
+}
+
+.DonJohnson
+{
+    background-color:Peru;
+}
+
+.KarenJohnson
+{
+    background-color:green;
+}

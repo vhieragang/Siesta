@@ -1,0 +1,101 @@
+
+.sch-event 
+{
+	-moz-border-radius:12px;
+    -webkit-border-radius: 12px;
+	background-color : #6D9ECF;
+	border-color:#999A9C;
+	border-style:solid;
+	cursor:pointer;
+}
+
+.Important
+{
+	background-color:red;
+	border-color:darkred;
+}
+
+.sch-event-inner
+{
+	font-family:tahoma;
+	color:#FFF;
+    text-shadow: rgba(0,0,0,.2) 0 -1px 0;
+	padding-left:20px;
+	height:20px;
+}
+
+.sch-event-selected
+{
+    -webkit-box-shadow:1px 2px 6px rgba(100, 100, 100, 0.6);
+	border-color:red;
+	border-style:dotted;
+	opacity:0.6;
+}
+
+.Management
+{
+	background : #eff url('images/user_business_32.png') no-repeat 5px 6px !important;
+}
+
+.Sales
+{
+	background : #eff url('images/user_blue_32.png') no-repeat 5px 6px !important;
+}
+
+.Developer
+{
+	background : #eff url('images/user_32.png') no-repeat 5px 6px !important;
+}
+
+
+.Management .x-grid-cell-inner,
+.Sales .x-grid-cell-inner,
+.Developer .x-grid-cell-inner
+{
+	color:#1E4176;
+	padding-left:43px;
+	font-weight:bold;
+}
+
+.employeeName {
+
+	font-size:13px;
+	display:inline-block;
+	width:63px;
+}
+
+.employeeType {
+	color:#888;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.Important .sch-event-inner
+{
+	background: url('images/important.png') no-repeat 1px top;
+}
+
+.Task .sch-event-inner
+{
+	background: url('images/brightness.png') no-repeat 1px top;
+}
+
+@-webkit-keyframes glow {
+	0% {
+		-webkit-box-shadow: 0 0 8px rgba(255, 0, 0, 1);
+	}
+	100% {
+		-webkit-box-shadow: 0;
+		border-color: darkred; 
+	}
+}
+
+.Important
+{
+	-webkit-animation-name: glow;
+    -webkit-animation-iteration-count : infinite;
+    -webkit-animation-duration: 0.8s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;	
+	-moz-box-shadow: 0 0 4px rgba(255, 0, 0, 1);
+}

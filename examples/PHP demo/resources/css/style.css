@@ -1,0 +1,24 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.togglebutton {
+    background : url(../images/checkbox.gif) no-repeat 0 0 !important;
+}
+.x-btn-pressed .togglebutton {
+    background-position : 0 -16px !important;
+}
+.icon-delete-context {
+    background: transparent url(../images/delete.png) no-repeat center center !important;
+}
+.icon-delete {
+    width: auto;
+    height: 16px;
+    background: transparent url(../images/cross.png) no-repeat left center !important;
+}
+.icon-add {
+    background:url(../images/add.gif) no-repeat left center !important;
+}
+.icon-save {
+    background:url(../images/save.gif) no-repeat left center !important;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--Ext and ux styles -->
+    <link href="http://cdn.sencha.com/ext/gpl/5.1.0/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css" rel="stylesheet" type="text/css" />
+
+    <!--Scheduler styles-->
+    <link href="../../resources/css/sch-all.css" rel="stylesheet" type="text/css" />
+    <link href="../css/examples.css" rel="stylesheet" type="text/css" />
+
+    <!--Ext 4 includes-->
+    <script src="http://cdn.sencha.com/ext/gpl/5.1.0/build/ext-all.js" type="text/javascript"></script>
+
+    <!--Scheduler files-->
+    <script src="../../sch-all-debug.js" type="text/javascript"></script>
+
+    <!--Application files-->
+    <script src="../examples-shared.js" type="text/javascript"></script>
+    <script src="cell-plugin.js" type="text/javascript"></script>
+
+    <style>
+        .my-event {
+            border-radius : 0px;
+            border        : none;
+            border-left   : 5px solid lightblue !important;
+            margin        : 1px;
+            box-shadow    : none !important;
+            background    : none;
+        }
+    </style>
+    
+    <title>Excel example</title>
+</head>
+<body>
+    <div id="example-description">
+        <p>
+            An example of scheduler with excel-like functionality provided by Sch.plugin.CellPlugin. This example supports following features:
+            <ul>
+                <li>Selecting cells</li>
+                <li>Navigating through view using arrows/mouse clicks</li>
+                <li>Cell editing. Just hit enter, double click cell, or simply start typing if cell is already selected</li>
+            </ul>
+        </p>
+        <p>
+            For example, if you want to create event just select cell and type start/end hours separeted by '-' : '10-12'.
+            This will create an event that starts at 10am and ends at 12pm.
+        </p>
+        <p>
+            <b><h3>Important notice:</h3></b> this plugin supports only one event per cell. Don't use it with existing event store
+            containing overlapping events.
+        </p>
+        <p>
+            Note that the js for the example code is not minified so it is readable. See <a href="cell-plugin.js">excel.js</a>.
+        </p>
+    </div>
+    <div id="example-container">
+    </div>
+</body>
+</html>

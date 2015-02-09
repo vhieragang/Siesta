@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--Ext and ux styles -->
+    <link href="http://cdn.sencha.com/ext/gpl/5.1.0/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css" rel="stylesheet" type="text/css"/>
+
+    <!--Scheduler styles-->
+    <link href="../../resources/css/sch-all.css?ver=3.0.0" rel="stylesheet" type="text/css"/>
+
+    <!--Implementation specific styles-->
+    <link href="../css/examples.css" rel="stylesheet" type="text/css"/>
+
+    <!--Ext lib and UX components-->
+    <script src="http://cdn.sencha.com/ext/gpl/5.1.0/build/ext-all.js" type="text/javascript"></script>
+
+    <!--Scheduler files-->
+    <script src="../../sch-all-debug.js?ver=3.0.0" type="text/javascript"></script>
+
+    <!--Application files-->
+    <script src="../examples-shared.js" type="text/javascript"></script>
+    <script src="configuration.js" type="text/javascript"></script>
+    <title>Configuration demo</title>
+
+    <style type="text/css">
+        .dayShift div {
+            background: url(sun.png) no-repeat left center;
+        }
+
+        .nightShift div {
+            background: url(bluemoon.png) no-repeat left center;
+        }
+
+        .zoomIn {
+            background: url(zoom_in.png) no-repeat left center;
+        }
+
+        .zoomOut {
+            background: url(zoom_out.png) no-repeat left center;
+        }
+
+        .zoomMax {
+            background: url(magnifier_zoom_in.png) no-repeat left center;
+        }
+
+        .zoomMin {
+            background: url(magnifier_zoom_out.png) no-repeat left center;
+        }
+
+        .sch-event {
+            background-color: #DDDDDD;
+            background-image: -moz-linear-gradient(center top, #EEEEEE, #CCCCCC);
+            border: 1px solid #777777;
+            border-radius: 0.2em 0.2em 0.2em 0.2em;
+            box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset, 0 1px 0 rgba(0, 0, 0, 0.3);
+            color: #333;
+            text-decoration: none;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+            white-space: nowrap;
+        }
+
+        .sch-event-inner {
+            margin: 0;
+        }
+
+        .value {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+            border-radius: 0.15em 0 0 0.15em;
+            box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+            float: left;
+            font: bold 1.4em/27px Tahoma;
+            height: inherit;
+            padding-left: 4px;
+            padding-right: 4px;
+            pointer-events: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="example-description">
+        <p>
+            This example shows you the built-in view presets along with some custom made ones and zooming feature. Click the
+            buttons in the toolbar to try them out. It is very easy to create your own custom view.
+        </p>
+
+        <p>Note that the js for the example code is not minified so it is readable. See <a href="configuration.js">configuration.js</a>.
+        </p>
+    </div>
+    <div id="example-container">
+        <div id="grid-configuration"></div>
+    </div>
+</body>
+</html>

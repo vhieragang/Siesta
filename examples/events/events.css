@@ -1,0 +1,143 @@
+.icon-task
+{
+    background: transparent url(images/LeftNavTaskIcon.gif) no-repeat left center;
+}
+
+.icon-clock
+{
+    padding-left:20px;
+    background: url(images/clock.png) no-repeat left center !important;
+    display:block;
+}
+
+.icon-earth
+{
+    padding-left:20px;
+    background: url(images/earth.png) no-repeat left center !important;
+    display:block;
+}
+
+.sch-event 
+{
+    color: #FFF;
+    text-shadow: rgba(0,0,0,.2) 0 -1px 0;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    background-color:Navy;
+    cursor: pointer;
+}
+
+.sch-event .sch-event-inner
+{
+    line-height: 0.9em;
+    white-space:nowrap;
+}
+
+.sch-event-header
+{
+    font-weight:bold;
+	overflow:hidden;
+    font-size:0.9em;
+}
+
+.sch-event-footer
+{
+    padding-left:2px;
+}
+
+.sch-event-hover 
+{
+    -webkit-box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.5);
+    -moz-box-shadow: 1px 1px 1px rgba(100, 100, 100, 0.5); 
+    border-color:#666;
+}
+
+/*  -----------------------------------
+    Styling of the event tooltip 
+    ----------------------------------- */
+
+.eventTip
+{
+    padding:5px;
+}
+
+.eventTip dd
+{
+    margin-bottom:17px;
+    padding-left:28px;
+}
+
+.eventTip dd:last-child
+{
+    margin-bottom:0px !important;
+}
+
+.eventTip dt
+{
+    padding-left:26px;
+    font-weight:bold;
+    padding-bottom:7px;
+}
+
+
+/*  -----------------------------------
+    Styling of log rows
+    ----------------------------------- */
+
+.evt-row
+{
+    padding: 9px 0;
+}
+
+.evt-row span
+{
+    margin-left:5px;
+}
+
+.evt-row:nth-child(odd)
+{
+    background:whitesmoke;
+}
+
+
+.event
+{
+    background:url(images/lightning.png) no-repeat left center;
+}
+
+.evt-time
+{
+    color:Gray;
+    background:url(images/lightning.png) no-repeat left center;
+    padding-left:20px;
+}
+
+.evt-name 
+{
+    font-weight:bold;
+}
+
+.evt-source 
+{
+    text-decoration:underline;
+}
+
+.icon-delete
+{
+    background:url(images/delete.png) no-repeat left center;
+}
+
+.locked
+{
+    background:url(images/lock.png) no-repeat left center;
+}
+
+.unlocked
+{
+    background:url(images/lock_open.png) no-repeat left center;
+}
+
+.x-panel-body > span
+{
+    display: none !important;
+}

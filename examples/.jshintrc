@@ -1,0 +1,15 @@
+{
+    "undef"     : true,
+    "browser"   : true,
+    "predef"    : ["Ext", "Sch", "console", "alert", "ExampleDefaults"],
+    "onecase"   : true,
+    "debug"     : false,
+    "asi"       : false,
+    "supernew"  : false,
+    "expr"      : true,         // allow fn && fn()
+    "loopfunc"  : true,
+    "eqnull"    : true,
+    "boss"      : true,
+    "maxerr"    : 5000,
+    "es3"       : true
+}

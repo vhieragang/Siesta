@@ -1,0 +1,74 @@
+.icon-left {
+    opacity         : 0.6;
+    background-size : 16px 16px !important;
+    background      : url(../images/arrow-left.png) no-repeat left center;
+}
+
+.icon-right {
+    opacity         : 0.6;
+    background-size : 16px 16px !important;
+    background      : url(../images/arrow-right.png) no-repeat left center;
+}
+
+.icon-right {
+    filter     : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='resources/images/arrow-right.png', sizingMethod='scale')";
+    -ms-filter : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='resources/images/arrow-right.png', sizingMethod='scale')";
+}
+
+.icon-left {
+    filter     : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='resources/images/arrow-left.png', sizingMethod='scale')";
+    -ms-filter : "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='resources/images/arrow-left.png', sizingMethod='scale')";
+}
+
+.sch-event {
+    border-color     : transparent;
+    background-color : #fff;
+    box-shadow       : 1px 1px 2px #aaa;
+    border-radius    : 0;
+
+}
+
+.sch-event-inner {
+    margin              : 0;
+    padding             : 2px 4px;
+    background-position : 2px 2px;
+    background-repeat   : no-repeat;
+    font-size           : 1.1em;
+}
+
+.sch-event .time {
+    color : #666;
+}
+
+.r1 .sch-event-inner {
+    border-left : 7px solid gray;
+}
+
+.r2 .sch-event-inner {
+    border-left : 7px solid Aqua;
+}
+
+.r3 .sch-event-inner {
+    border-left : 7px solid BlanchedAlmond;
+}
+
+.r4 .sch-event-inner {
+    border-left : 7px solid red;
+}
+
+.tbar, body.x-body {
+    background : none;
+}
+
+.header-month {
+    color       : #555;
+    font-size   : 1.5em;
+    font-weight : bold;
+    margin-right : 5px;
+}
+
+.header-year {
+    color        : #555;
+    font-size    : 1.5em;
+    font-weight  : lighter;
+}

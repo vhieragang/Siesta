@@ -1,0 +1,123 @@
+body {
+    font-family : arial, tahoma, helvetica, sans-serif;
+}
+
+.sch-event {
+    -moz-box-shadow    : 1px 1px 6px rgba(100, 100, 100, 0.2);
+    -webkit-box-shadow : 1px 1px 6px rgba(100, 100, 100, 0.2);
+    background         : transparent;
+    border             : 0 none;
+    opacity            : 0.7;
+    overflow           : visible !important;
+    border-radius      : 8px;
+}
+
+.sch-event-inner {
+    margin : 0;
+}
+
+.sch-event-inner div div:first-child {
+    border-top-left-radius    : 8px;
+    border-bottom-left-radius : 8px;
+}
+
+.sch-event-inner div div:last-child {
+    border-top-right-radius    : 8px;
+    border-bottom-right-radius : 8px;
+}
+
+.timing {
+    height            : 100%;
+    position          : absolute;
+    background-image  : url(../../resources/images/transp-1px.png);
+    background-repeat : repeat-x;
+}
+
+.connecting {
+    background-color : lime;
+}
+
+.waiting {
+    background-color : #C49AE8;
+}
+
+.blocking {
+    background-color : sandybrown;
+}
+
+.receiving {
+    background-color : gray;
+}
+
+.tip dt {
+    font-weight       : bold;
+    background-image  : url(../../resources/images/transp-1px.png);
+    background-repeat : repeat-x;
+}
+
+.tip dd {
+    padding-bottom : 10px;
+}
+
+.response,
+.duration {
+    color : Gray;
+}
+
+.duration {
+    position : absolute;
+    right    : -40px;
+    top      : 0;
+}
+
+.sch-schedulerpanel .sch-timeheader .x-grid-hd-inner {
+    padding : 0 3px 8px 5px;
+}
+
+.ticks-outer {
+    position     : absolute;
+    width        : 50%;
+    height       : 60%;
+    left         : 25%;
+    border-left  : 1px solid #ccc;
+    border-right : 1px solid #ccc;
+    height       : 10px;
+    bottom       : 0px;
+    overflow     : hidden;
+}
+
+.ticks-inner {
+    position    : absolute;
+    overflow    : visible;
+    border-left : 1px solid #ccc;
+    height      : 85%;
+    left        : 50%;
+    top         : 5px;
+}
+
+.ticks-header {
+    color       : #666;
+    text-shadow : 1px 1px 1px #fff;
+    position    : relative;
+}
+
+.x-grid-with-col-lines .x-grid-cell {
+    border-right-color : #eee;
+}
+
+.x-grid-inner-locked .x-column-header-inner {
+    font-weight : bold;
+}
+
+.sch-timeheader  .x-column-header-text {
+    line-height : 8px;
+}
+
+.mytimeline {
+    border : 2px solid turquoise;
+}
+
+.sch-simple-timeheader {
+    position : relative;
+    height   : 30px;
+}

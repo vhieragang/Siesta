@@ -1,0 +1,9 @@
+.sch-event 
+{
+    border:1px solid #99BBE8;
+    color: #1C3E7D;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    font-weight:bold;
+}

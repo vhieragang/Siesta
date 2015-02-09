@@ -1,0 +1,36 @@
+.x-grid-cell.Machines .x-grid-cell-inner
+{
+    background: url(images/cog.png) no-repeat 3px 3px !important;
+	padding-left:25px;
+}
+
+.x-grid-cell.Robots .x-grid-cell-inner
+{
+    background: url(images/ro.png) no-repeat 3px 3px !important;
+	padding-left:25px;
+}
+
+.evt-Robots
+{
+    background-color:darkorange;
+    color:#fff
+}
+
+.x-grid-inner-locked .x-grid-body
+{
+    background:#eff;    
+}
+
+
+.x-grid-inner-locked .x-grid-row .x-grid-cell 
+{
+    background-color: transparent;
+}
+
+.unavailable .x-grid-cell
+{
+    color:darkred;
+    font-weight:bold;
+    background: url(images/graytexture.png) repeat-x left center !important;
+}
+

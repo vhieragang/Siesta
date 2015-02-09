@@ -1,0 +1,101 @@
+.taskgrid .x-grid-cell {
+    cursor : pointer;
+    height : 26px;
+}
+
+.staffscheduler .x-grid-inner-locked .x-grid-cell-first div {
+    background   : url(../images/user.png) no-repeat 3px center;
+    padding-left : 27px;
+}
+
+.staffscheduler .x-grid-inner-locked .x-grid-view td {
+    border-top-color    : transparent !important;
+    border-bottom-color : transparent !important;
+}
+
+.taskgrid .x-grid-row .x-grid-cell-first .x-grid-cell-inner {
+    background   : url(../images/puzzle.png) no-repeat 2px center !important;
+    padding-left : 24px;
+}
+
+.taskgrid .x-grid-cell-inner, .sch-schedulerpanel .x-grid-inner-locked .x-grid-cell-inner {
+    font-size   : 12px;
+    line-height : 20px !important;
+}
+
+.sch-event {
+    opacity          : 0.9;
+    background       : limegreen;
+    border           : 1px solid green;
+    color            : #fff;
+    cursor           : pointer;
+    font-size        : 1.2em;
+    text-align       : center;
+    box-shadow       : 1px 1px 1px rgba(100, 100, 100, 0.2);
+    border-radius    : 2px;
+    line-height      : 26px;
+}
+
+div.invalid {
+    background-color : Red;
+    color            : black;
+}
+
+div.invalid .sch-event-inner {
+    background   : transparent url(../images/error.png) no-repeat left top;
+    padding-left : 22px;
+}
+
+div.sch-event-hover {
+    border-color : #333;
+}
+
+.sch-event-selected {
+    box-shadow   : none !important;
+    border-color : #000 !important;
+    opacity      : 1;
+}
+
+.taskgrid .x-grid-cell {
+    border-right : 0 !important;
+}
+
+/* Poor IE always misunderstanding z-index */
+.x-ie .x-grid-table {
+    position : relative;
+    z-index  : 2;
+}
+
+/* Some style indicating an availability interval is special */
+div.optimal {
+    background   : Aqua !important;
+    border-color : navy;
+}
+
+.staffscheduler .optimal {
+    background : Aqua url(../images/accept.png) no-repeat 2px center !important;
+    opacity    : 0.9;
+}
+
+.sch-resourcezone,
+.availability-scheduler .sch-event {
+    background : #AFB url(../images/pattern.png) repeat 0 0;
+}
+
+.availability-scheduler .sch-event {
+    color         : #fff;
+    cursor        : pointer;
+    font-size     : 1.2em;
+    text-align    : center;
+    box-shadow    : 1px 1px 1px rgba(100, 100, 100, 0.2);
+    line-height   : 19px;
+    border-radius : 0;
+}
+
+.sch-dd-wrap {
+    height : 45px;
+}
+
+.sch-timelinepanel .x-grid-item {
+    background : transparent;
+}

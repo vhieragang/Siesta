@@ -1,0 +1,13 @@
+.sch-tip-ok {
+    padding-left : 20px;
+    background   : url(../images/drop-yes.gif) no-repeat left top;
+}
+
+.sch-tip-notok {
+    padding-left : 20px;
+    background   : url(../images/drop-no.gif) no-repeat left top;
+}
+
+.sch-tooltip-enddate {
+    padding-top : 2px;
+}

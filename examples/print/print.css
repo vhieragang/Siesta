@@ -1,0 +1,38 @@
+.icon-print
+{
+	background: url(images/printer.png) no-repeat left center !important;
+}
+
+/* First scheduler */
+.sch-event
+{
+    border-radius:5px;    
+}
+    
+.normalEvent    
+{
+	background-color: lightblue;
+	border-color: lightblue;
+}
+
+.specialEventType
+{
+	background-color: lime;
+	border-color: lime;
+}
+
+
+/* Second scheduler */
+.basicEventType
+{
+	background-color: orange;
+	border-color: orange;
+}
+
+.verySpecialEventType
+{
+	font-weight:bold;
+	background-color: lightblue;
+	border-color: lightblue;
+}
+

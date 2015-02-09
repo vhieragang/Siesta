@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<EventsResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Event>
+        <Id>e101</Id>
+        <ResourceId>r1</ResourceId>
+        <Name>Assignment 1</Name>
+        <StartDate>2011-01-04</StartDate>
+        <EndDate>2011-01-06</EndDate>
+    </Event>
+    <Event>
+        <Id>e102</Id>
+        <ResourceId>r2</ResourceId>
+        <Name>Assignment 2</Name>
+        <StartDate>2011-01-05</StartDate>
+        <EndDate>2011-01-08</EndDate>
+    </Event>
+    <Event>
+        <Id>e103</Id>
+        <ResourceId>r3</ResourceId>
+        <Name>Assignment 3</Name>
+        <StartDate>2011-01-06</StartDate>
+        <EndDate>2011-01-08</EndDate>
+    </Event>
+    <Event>
+        <Id>e104</Id>
+        <ResourceId>r4</ResourceId>
+        <Name>Assignment 4</Name>
+        <StartDate>2011-01-07</StartDate>
+        <EndDate>2011-01-09</EndDate>
+    </Event>
+    <Event>
+        <Id>e105</Id>
+        <ResourceId>r5</ResourceId>
+        <Name>Assignment 5</Name>
+        <StartDate>2011-01-03</StartDate>
+        <EndDate>2011-01-05</EndDate>
+    </Event>
+    <Event>
+        <Id>e106</Id>
+        <ResourceId>r6</ResourceId>
+        <Name>Assignment 6</Name>
+        <StartDate>2011-01-09</StartDate>
+        <EndDate>2011-01-11</EndDate>
+    </Event>
+</EventsResponse>

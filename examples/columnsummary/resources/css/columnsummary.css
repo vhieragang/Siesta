@@ -1,0 +1,116 @@
+.sch-event {
+    opacity       : 0.6;
+    box-shadow    : none;
+    border-radius : 0;
+    line-height   : 39px;
+}
+
+.staffheader {
+    font-weight  : bold;
+    font-size    : 1.3em;
+    line-height  : 24px;
+    padding-left : 10px;
+}
+
+div.sch-event-selected {
+    border-color : darkgreen;
+}
+
+.x-grid-cell-inner {
+    padding-top    : 0;
+    padding-bottom : 0;
+    padding-left   : 0;
+    line-height    : 45px;
+    color          : #666;
+}
+
+.x-grid-cell-inner img {
+    height    : inherit;
+    min-width : 44px;
+}
+
+.x-grid-cell-inner img,
+.x-grid-cell-inner dl {
+    float : left;
+}
+
+.x-grid-cell-inner dl {
+    margin : 10px 15px;
+}
+
+.x-grid-cell-inner dt {
+    font-weight : bold;
+    font-size   : 1.2em;
+    color       : #444;
+    line-height : 16px;
+}
+
+.x-grid-cell-inner dd {
+    font-size   : 0.8em;
+    color       : #666;
+    line-height : 16px;
+}
+
+.sch-event-inner {
+    border-radius : inherit;
+    margin-top    : 0;
+    font-weight   : bold;
+    font-size     : 0.8em;
+    padding-left  : 3px;
+}
+
+div.sch-event-hover {
+}
+
+.sch-header-row-bottom .sch-column-header {
+    padding-left : 0;
+}
+
+.summary-event {
+    position   : absolute;
+    top        : 0;
+    height     : 100%;
+    background : #7971e2;
+    border     : 1px solid #9E14CC;
+    font-size  : 8px;
+    color      : #fff;
+    text-align : center;
+}
+
+.sch-header-row-bottom .sch-simple-timeheader {
+}
+
+.sch-header-row-bottom .sch-simple-timeheader {
+    position : relative !important;
+    overflow : visible;
+}
+
+.weekend,
+.header-2010-12-03 {
+    background : #dfefff;
+    opacity    : 0.8;
+}
+
+.x-grid-with-row-lines .x-grid-item {
+    border-color : #ddd;
+}
+
+.header-2010-12-03 {
+    border-top  : 2px solid #9E14CC;
+    background  : #def;
+    font-weight : bold;
+}
+
+.Special {
+    background-color : #111;
+    border-color     : #111;
+}
+
+.VerySpecial {
+    background-color : #9E14CC;
+    border-color     : #9E14CC;
+}
+
+.sch-resizable-handle {
+    background : none !important;
+}

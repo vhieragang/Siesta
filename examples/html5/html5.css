@@ -1,0 +1,71 @@
+.x-gecko .x-grid-inner-locked .x-grid-row .x-grid-cell-first {
+    background-image : -moz-linear-gradient(-45deg, #dde, #fff);
+}
+
+.x-webkit .x-grid-inner-locked .x-grid-row .x-grid-cell-first {
+    background : -webkit-gradient(linear, left top, right bottom, from(#dde), to(#fff));
+}
+
+.x-grid-inner-locked .x-grid-row .x-grid-cell-first .x-grid-cell-inner {
+    position : relative;
+}
+
+.blocked {
+    background : url(images/graytexture.png) repeat !important;
+    overflow   : visible;
+}
+
+.block-message {
+    padding    : 8px;
+    width      : 132px;
+    height     : 40px;
+    position   : relative;
+    top        : 0;
+    left       : -15px;
+    z-index    : 20000;
+    background : url(images/messagebg.png) no-repeat !important;
+}
+
+.maintenance {
+    text-shadow  : #1A5E9E 0 2px 2px;
+    font-weight  : bold;
+    color        : #FFF;
+    display      : block;
+    height       : 16px;
+    padding-left : 22px;
+    background   : url(images/cog.png) no-repeat !important;
+}
+
+.image {
+    height        : 75px;
+    padding       : 2px;
+    background    : #fff;
+    box-shadow    : 1px 1px 1px rgba(100, 100, 100, 0.4);
+    border-radius : 3px;
+}
+
+.name {
+    font-size   : 16px;
+    font-family : "Lobster", arial, sans-serif;
+    position    : absolute;
+    top         : 5px;
+    right       : 5px;
+    color       : #1A5E9E;
+}
+
+.bedImg {
+    background : url('images/bed.png') no-repeat;
+    position   : absolute;
+    bottom     : 0px;
+    right      : 5px;
+    height     : 32px;
+    width      : 32px;
+}
+
+.sleeps {
+    color    : #888;
+    left     : 2px;
+    position : relative;
+}
+
+

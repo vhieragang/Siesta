@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--Ext and ux styles -->
+    <link href="http://cdn.sencha.com/ext/gpl/5.1.0/packages/ext-theme-classic/build/resources/ext-theme-classic-all.css" rel="stylesheet" type="text/css"/>
+
+    <!--Scheduler styles-->
+    <link href="../../resources/css/sch-all.css?ver=3.0.0" rel="stylesheet" type="text/css"/>
+
+    <!--Implementation specific styles-->
+    <link href="../css/examples.css" rel="stylesheet" type="text/css"/>
+
+    <!--Ext lib and UX components-->
+    <script src="http://cdn.sencha.com/ext/gpl/5.1.0/build/ext-all.js" type="text/javascript"></script>
+
+    <!--Scheduler files-->
+    <script src="../../sch-all-debug.js?ver=3.0.0" type="text/javascript"></script>
+
+    <!--Application files-->
+    <script src="../examples-shared.js" type="text/javascript"></script>
+    <script src="vertical.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        .sch-event {
+            border-color     : transparent;
+            background-color : #fff;
+            box-shadow       : 1px 1px 2px #aaa;
+            border-radius    : 0;
+
+        }
+
+        .sch-event-inner {
+            margin              : 0;
+            padding             : 2px 4px;
+            background-position : 2px 2px;
+            background-repeat   : no-repeat;
+            font-size           : 1.1em;
+        }
+
+        .sch-event .time {
+            color       : #666;
+        }
+
+        .Meeting {
+            background-image : url(user_orange.png);
+        }
+
+        .Call {
+            background-image : url(phone_sound.png);
+        }
+
+        .sch-resourcecolumn-header .x-column-header-text {
+            background   : url(user.png) no-repeat left center;
+            padding-left : 23px;
+            display      : inline-block;
+        }
+
+        .sch-resourcecolumn-header .x-column-header-inner {
+            padding     : 12px 4px;
+            line-height : 16px;
+        }
+
+        .icon-horizontal {
+            background : url(horizontal.png) no-repeat left center;
+        }
+
+        .icon-vertical {
+            background : url(vertical.png) no-repeat left center;
+        }
+
+        .sch-horizontal .x-grid-inner-locked tr {
+            background-image  : url(../../resources/images/transp-1px.png);
+            background-repeat : repeat-x;
+        }
+
+        .x-grid-inner-locked .x-grid-cell {
+            background-color : transparent;
+        }
+
+        .Jake .sch-event-inner {
+            border-left : 7px solid gray;
+        }
+
+        .King .sch-event-inner {
+            border-left : 7px solid Aqua;
+        }
+
+        .Brian .sch-event-inner {
+            border-left : 7px solid BlanchedAlmond;
+        }
+
+        .Mike .sch-event-inner {
+            border-left : 7px solid red;
+        }
+
+        .Karen .sch-event-inner {
+            border-left : 7px solid BlanchedAlmond;
+        }
+
+        .Linda .sch-event-inner {
+            border-left : 7px solid green;
+        }
+
+        .Don .sch-event-inner {
+            border-left : 7px solid Khaki;
+        }
+
+        .Doug .sch-event-inner {
+            border-left : 7px solid Plum;
+        }
+
+        .Peter .sch-event-inner {
+            border-left : 7px solid Gold;
+        }
+
+        .lunch-style {
+            background : #F5F5F5 url(coffee.jpg) no-repeat center center;
+            z-index    : 1;
+            border     : 1px dashed #ddd;
+            pointer-events : none;
+        }
+    </style>
+    <title>Vertical view demo</title>
+</head>
+<body>
+<div id="example-container">
+</div>
+</body>
+</html>

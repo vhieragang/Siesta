@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ResourcesResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Resource>
+        <Id>r1</Id>
+        <Name>Mike</Name>
+    </Resource>
+    <Resource>
+        <Id>r2</Id>
+        <Name>Linda</Name>
+    </Resource>
+    <Resource>
+        <Id>r3</Id>
+        <Name>Don</Name>
+    </Resource>
+    <Resource>
+        <Id>r4</Id>
+        <Name>Karen</Name>
+    </Resource>
+    <Resource>
+        <Id>r5</Id>
+        <Name>Doug</Name>
+    </Resource>
+    <Resource>
+        <Id>r6</Id>
+        <Name>Peter</Name>
+    </Resource>
+</ResourcesResponse>

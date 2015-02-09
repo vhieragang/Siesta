@@ -1,0 +1,8 @@
+/* Default cursor for tree scheduler should be auto */
+.sch-timelinetreeview .x-grid-item .x-grid-cell-inner {
+    cursor: default;
+}
+
+.sch-tree-filtered .x-tree-expander {
+	visibility     : hidden;
+}

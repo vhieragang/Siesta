@@ -1,0 +1,25 @@
+.excel
+{
+    background: url(images/excel_icon.gif) no-repeat left center !important;
+}
+
+.sch-event
+{
+    background: url(images/texture.png) repeat-x !important;
+    border:1px solid Teal;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-box-shadow:1px 1px 1px rgba(100, 100, 100, 0.2);
+    -webkit-box-shadow:1px 1px 1px rgba(100, 100, 100, 0.2);
+    box-shadow:1px 1px 1px rgba(100, 100, 100, 0.2);
+    font-weight:bold;
+    color:#fff;
+}
+
+.sch-event-inner
+{
+    background: url(images/clock.png) no-repeat left top !important;
+	padding-left:28px;
+	height:100%;
+}

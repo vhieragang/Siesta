@@ -1,0 +1,59 @@
+
+.icon-compact {
+    background : transparent url(images/small-rowheight.png) no-repeat center center !important;
+}
+
+.icon-medium {
+    background : transparent url(images/medium-rowheight.png) no-repeat center center !important;
+}
+
+.icon-large {
+    background : transparent url(images/big-rowheight.png) no-repeat center center !important;
+}
+
+.icon-delete {
+    background : transparent url(images/delete.png) no-repeat center center !important;
+}
+
+.icon-deleteall {
+    background : transparent url(images/deleteall.png) no-repeat center center !important;
+}
+
+.icon-cleardatabase {
+    background : transparent url(images/database_delete.png) no-repeat center center !important;
+}
+
+div.sch-event {
+    box-shadow            : 1px 1px 1px rgba(100, 100, 100, 0.2);
+    border-radius         : 2px;
+    color                 : #fff;
+}
+
+div.sch-event-hover {
+    border-color : #333;
+}
+
+.Consultants {
+    background : url(images/event-big.png) repeat-x left top;
+}
+
+.Sales {
+    background : url(images/event-big2.png) repeat-x left top;
+}
+
+.Testers {
+    background : url(images/event-big3.png) repeat-x left top;
+}
+
+.Research {
+    background : url(images/event-big4.png) repeat-x left top;
+}
+
+.sch-grid-group-hd-cell {
+    color      : #666;
+    transition : color 0.5s linear;
+}
+
+.overallocated {
+    color : red;
+}
